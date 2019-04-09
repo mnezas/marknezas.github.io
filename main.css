@@ -1,3 +1,48 @@
-.h1{
-  
+h1{
+    color: white;
+}
+
+h2{ font-size: 125px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+
+p{
+    color: white
+}
+
+
+
+
+
+h1:hover{
+
+    animation: tada 2s infinite;
+-webkit-animation: tada 2s infinite;
+
+}
+
+#intro {
+    /* height: 100vh; */
+    background: radial-gradient(circle, red 0%,black 100%);
+    text-align: left;
+}
+svg:hover{
+
+}
+#intro .content {
+    position: absolute;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+div {
+
+        background: radial-gradient(circle, black 0%, grey 100%);
+}
+
+svg{
+    margin-top: -800px;
 }
