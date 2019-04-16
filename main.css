@@ -6,6 +6,9 @@ h2{ font-size: 125px;
     font-family: 'Roboto', sans-serif;
     color: white;
 }
+h3{
+    color: white;
+}
 
 
 p{
@@ -28,9 +31,7 @@ h1:hover{
     background: radial-gradient(circle, red 0%,black 100%);
     text-align: left;
 }
-svg:hover{
 
-}
 #intro .content {
     position: absolute;
     /* top: 50%;
@@ -46,3 +47,4 @@ div {
 svg{
     margin-top: -800px;
 }
+
