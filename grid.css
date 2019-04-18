@@ -12,30 +12,21 @@
     padding: 4em;
 }
 
-.header {
+header {
     grid-area: h;
+    
+}
 
-}
-.footer {
-    grid-area: f;
-}
+
 .main {
     grid-area: m;
 }
-.sidebar {
-    grid-area: s;
-    padding-left: 70%;
-}
-.header2 {
-    grid-area: a;
-}
 
-.sidebar2 {
-    grid-area: b;
-}
-.sidebar3 {
+
+.header3 {
     grid-area: g;
 }
+
 .space {
         background-color: #88d8b0;
         overflow-x: scroll;
@@ -43,6 +34,14 @@
         white-space: nowrap;
         grid-area: p;
 }
+.logo{
+    grid-area: l;
+}
+.button {
+    grid-area: a;
+}
+
+
 
 .wrapper {
     display: grid;
@@ -50,28 +49,25 @@
     grid-auto-rows: 40% auto 20%;
     grid-template-columns: 1fr;
     grid-template-areas: 
-    "a" 
     "h"
+    "l" 
     "m"
-    "s"
-    "b"
-    "f"
+    "g"
     "p"
-    "g";
+    "p"
+    "p";
 }
 
 @media (min-width: 1300px) {
    
 
     .wrapper {
-        grid-template-rows: repeat(6, 1fr);
-        grid-template-columns: repeat(9, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(8, 1fr);
         grid-template-areas: 
-          "h h h a a a m m m"
-          "s s s a a a b b b"
-          "p p p p p p p p p"
-          "p p p p p p p p p"
-          "p p p p p p p p p"
-          "f f f f f f f f f";
+          "l l l h h h h h"
+          "g g g a a m m m"
+          "p p p p p p p p"
+          "p p p p p p p p";
     }
 }
