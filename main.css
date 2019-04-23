@@ -9,6 +9,7 @@ h2{ font-size: 80px;
     /* padding-right: 100px; */
     text-align: right;
     margin-bottom: -50px;
+    padding-right: 50px;
 }
 h3{
     color: white;
@@ -19,7 +20,7 @@ h4{
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
     color: white;
-    /* padding-right: 200px; */
+    padding-right: 50px;
 
 }
 
@@ -29,7 +30,7 @@ p{
 }
 
 
-h1:hover{
+h2:hover{
 
 animation: tada 2s infinite;
 -webkit-animation: tada 2s infinite;
@@ -50,7 +51,6 @@ animation: tada 2s infinite;
 }*/
 
 div {
-
     background: radial-gradient(circle, black 0%, grey 100%);
 }
 
