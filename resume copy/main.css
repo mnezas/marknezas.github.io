@@ -3,21 +3,26 @@ body {
     font-family: 'Roboto', sans-serif;
     color: black;
     background-image: url('../images/grid.png');
+    color: white;
   }
   svg { fill: blue;
   }
 h2{
-  color: darkred;
+  color: red;
   font-size: 30px;
 }
 h1{
-  color: darkblue;
+  color: red;
   font-size: 50px
 }
 h4{
-  color: darkslateblue;
+  color: red;
   font-size: 25px;
+
 }
 dt{
   font-size: 20px;
+}
+p{
+  color: white;
 }

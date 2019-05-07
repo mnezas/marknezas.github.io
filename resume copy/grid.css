@@ -1,14 +1,12 @@
 * {box-sizing: border-box;}
 
-/*.wrapper {
 
-    margin: 0 auto */
 
 
 .wrapper > div {
     border: 2px solid rgb(102, 195, 162);
     border-radius: 5px;
-    background-color: lightgrey;
+    background: radial-gradient(circle, lightgrey 0%,black 100%);
     padding: 4em;
 }
 

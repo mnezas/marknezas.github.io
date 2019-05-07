@@ -1,15 +1,11 @@
  * {box-sizing: border-box;}
 
-/*.wrapper {
-
-    margin: 0 auto */
 
 
 .wrapper > div {
 
     border-radius: 5px;
     background-color: lightskyblue;
-    /* padding: 4em; */
 }
 .wrapper {
     display: grid;
