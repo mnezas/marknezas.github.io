@@ -28,7 +28,7 @@ p{
     color: white;
     text-align: left;
     font-family: 'Roboto', sans-serif;
-    padding-left: 50px;
+    padding-left: 60px;
 }
 
 
@@ -50,6 +50,9 @@ h4:hover{
     background: radial-gradient(circle, red 0%,black 100%);
 }
 
+.logo2 {
+    background: radial-gradient(circle, grey 0%,black 100%);
+}
 
 div {
     background: radial-gradient(circle, black 0%, grey 100%);

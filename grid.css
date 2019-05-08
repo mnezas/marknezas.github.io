@@ -47,3 +47,24 @@ header {
 .logo{
     grid-area:l;
 }
+
+
+.wrapper2 {
+    display: grid;
+    grid-gap: 8px;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "h" 
+    "l";
+}
+
+@media (min-width: 800px) {
+    .wrapper2 {
+        background-color: blueviolet;
+        grid-template-rows: 10% 10%;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-areas: 
+          "l l l h h h h h"
+    }
+}

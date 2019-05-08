@@ -34,7 +34,7 @@
 }
 .wrapper {
     display: grid;
-    grid-auto-rows: 40% auto 20%;
+    grid-auto-rows: 50% auto 20%;
     grid-template-columns: 1fr;
     grid-template-areas: 
     "a" 
