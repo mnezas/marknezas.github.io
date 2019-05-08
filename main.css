@@ -26,6 +26,9 @@ h4{
 
 p{
     color: white;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 50px;
 }
 
 
@@ -33,6 +36,13 @@ h2:hover{
 
 animation: tada 2s infinite;
 -webkit-animation: tada 2s infinite;
+
+}
+
+h4:hover{
+
+    animation: tada 2s infinite;
+    -webkit-animation: tada 2s infinite;
 
 }
 
@@ -52,3 +62,4 @@ div {
 nav { 
     background: lightgrey;
 }
+
